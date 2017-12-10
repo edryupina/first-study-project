@@ -3,17 +3,17 @@ import java.util.Scanner;
 public class calculator {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.printf("Перед вами примитивный калькулятор. После каждого действия не забывайте нажимать кнопку ENTER \n");
+        System.out.println("Перед вами примитивный калькулятор. После каждого действия не забывайте нажимать кнопку ENTER ");
         System.out.printf("               введите ПЕРВОЕ число ");
-        float numb1 = in.nextFloat();
+        double numb1 = in.nextDouble();
         System.out.printf("введите ЗНАК операции (+,-,* или /) ");
         String operator = in.next();
         System.out.printf("               введите ВТОРОЕ число ");
-        float numb2 = in.nextFloat();
-        float summa = numb1 + numb2;
-        float razn = numb1 - numb2;
-        float umn = numb1 * numb2;
-        float del = numb1 / numb2;
+        double numb2 = in.nextDouble();
+        double summa = numb1 + numb2;
+        double razn = numb1 - numb2;
+        double umn = numb1 * numb2;
+        double del = numb1 / numb2;
         if (operator.equals("+")) {
             System.out.printf("сумма двух чисел =                  %.4f \n", summa);
         }
