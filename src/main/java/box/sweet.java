@@ -12,7 +12,7 @@ public class sweet extends present {
         this.sweetness=sweetness;
     }
     public String toString() {
-        return "sweet +[" + super.toString() + ", sweetness = " + sweetness + "]";
+        return "sweet = [" + super.toString() + ", sweetness = " + sweetness + "]";
     }
 }
 

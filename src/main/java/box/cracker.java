@@ -12,7 +12,7 @@ public class cracker extends present {
         this.salinity=salinity;
     }
     public String toString() {
-        return "cracker +[" + super.toString() + ", salinity = " + salinity + "]";
+        return "cracker = [" + super.toString() + ", salinity = " + salinity + "]";
     }
 }
 
