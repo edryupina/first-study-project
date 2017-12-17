@@ -25,17 +25,17 @@ public class maxim {
             }
         }
         //подсчитали маленькое положительное число
-        System.out.printf ("Самое первое большое ОТРИЦ число в массиве = %d\n", min);
-        //System.out.printf ("Самое большое - число в массиве = %d\n", minn);
-        System.out.printf ("Самое певрое маленькое ПОЛОЖ число в массиве = %d\n", max);
-        //System.out.printf ("Самое маленькое + число в массиве = %d\n", maxx);
         for (i = 0; i < 20; i++) {
             System.out.printf(minmax[i] + " ");
         }
+        System.out.println(" ");
+        System.out.printf ("Самое  первое большое ОТРИЦ  число в массиве = %d\n", min);
+        //System.out.printf ("Самое большое - число в массиве = %d\n", minn);
+        System.out.printf ("Самое певрое маленькое ПОЛОЖ число в массиве =  %d\n", max);
+        //System.out.printf ("Самое маленькое + число в массиве = %d\n", maxx);
         m = minmax[minn];
         minmax[minn] = minmax[maxx];
         minmax[maxx] = m;
-        System.out.println(" ");
         for (i=0; i < 20; i++) {
             System.out.print(minmax[i] + " ");
         }
