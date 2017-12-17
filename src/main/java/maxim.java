@@ -6,7 +6,7 @@ public class maxim {
         int maxx = 0;
         int i;
         int m;
-        for (i = 0; i < minmax.length; i++) {
+        for (i = 0; i < 20; i++) {
             minmax[i] = ((int) (Math.random() * 20) - 10);
             }
         int min =-11;
@@ -29,9 +29,9 @@ public class maxim {
             System.out.printf(minmax[i] + " ");
         }
         System.out.println(" ");
-        System.out.printf ("Самое  первое большое ОТРИЦ  число в массиве = %d\n", min);
+        System.out.printf ("Самое  первое  большое ОТРИЦ число в массиве = %d\n", min);
         //System.out.printf ("Самое большое - число в массиве = %d\n", minn);
-        System.out.printf ("Самое певрое маленькое ПОЛОЖ число в массиве =  %d\n", max);
+        System.out.printf ("Самое первое маленькое ПОЛОЖ число в массиве =  %d\n", max);
         //System.out.printf ("Самое маленькое + число в массиве = %d\n", maxx);
         m = minmax[minn];
         minmax[minn] = minmax[maxx];
