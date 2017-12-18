@@ -1,9 +1,9 @@
 package box;
 public abstract class present {
     private String name;
-    private String price;
-    private String weight;
-    public present(String name, String price, String weight) {
+    private Double price;
+    private Double weight;
+    public present(String name, Double price, Double weight) {
         this.name=name;
         this.price=price;
         this.weight=weight;
@@ -14,16 +14,16 @@ public abstract class present {
     public void setName(String name) {
         this.name=name;
     }
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
-    public void setPrice(String price) {
+    public void setPrice(Double price) {
         this.price=price;
     }
-    public String getWeight() {
+    public double getWeight() {
         return weight;
     }
-    public void setWeight(String weight) {
+    public void setWeight(Double weight) {
         this.weight=weight;
     }
     public String toString() {

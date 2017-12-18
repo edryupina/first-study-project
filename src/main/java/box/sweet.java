@@ -1,7 +1,7 @@
 package box;
 public class sweet extends present {
     private String sweetness;
-    public sweet(String name, String price, String weight, String sweetness) {
+    public sweet(String name, Double price, Double weight, String sweetness) {
         super(name, price, weight);
         this.sweetness = sweetness;
     }

@@ -1,7 +1,7 @@
 package box;
 public class cracker extends present {
     private String salinity;
-    public cracker(String name, String price, String weight, String salinity) {
+    public cracker(String name, Double price, Double weight, String salinity) {
         super(name, price, weight);
         this.salinity = salinity;
     }
