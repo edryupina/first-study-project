@@ -9,11 +9,11 @@ public class calcmas {
         String chislo = in.next();
         if (chislo.equals("1")) {
             System.out.println("Перед вами примитивный калькулятор. После каждого действия не забывайте нажимать кнопку ENTER ");
-            System.out.println("введите ПЕРВОЕ число ");
+            System.out.println("введите ПЕРВОЕ число  ");
             double numb1 = in.nextDouble();
             System.out.println("введите ЗНАК операции (+,-,* или /) ");
             String operator = in.next();
-            System.out.println("введите ВТОРОЕ число ");
+            System.out.println("введите ВТОРОЕ число  ");
             double numb2 = in.nextDouble();
             double summa = numb1 + numb2;
             double razn = numb1 - numb2;
@@ -50,7 +50,7 @@ public class calcmas {
                     max = amas;
                 }
             }
-            System.out.printf ("Самое ДЛИННОЕ слово в массиве = %s\n", max); ///вывожу самое длинное слово (если было по размеру два одинаково длинных слова - вывожу самое первое из них)
+            System.out.printf ("Самое ДЛИННННОЕ слово в массиве = %s\n", max); ///вывожу самое длинное слово (если было по размеру два одинаково длинных слова - вывожу самое первое из них)
         }
     }
 }
