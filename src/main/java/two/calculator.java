@@ -7,6 +7,7 @@ public class calculator {
         Scanner in = new Scanner(System.in);
         System.out.println("Перед вами примитивный калькулятор. После каждого действия не забывайте нажимать кнопку ENTER ");
         System.out.printf("               введите ПЕРВОЕ число ");
+
         double numb1 = in.nextDouble();
         System.out.printf("введите ЗНАК операции (+,-,* или /) ");
         String operator = in.next();
