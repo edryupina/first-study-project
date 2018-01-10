@@ -1,4 +1,4 @@
-package box;
+package four.two.box;
 public class sweet extends present {
     private String sweetness;
     public sweet(String name, Double price, Double weight, String sweetness) {

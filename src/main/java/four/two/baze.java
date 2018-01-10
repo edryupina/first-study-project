@@ -1,6 +1,8 @@
-import box.cracker;
-import box.present;
-import box.sweet;
+package four.two;
+
+import four.two.box.cracker;
+import four.two.box.present;
+import four.two.box.sweet;
 
 public class baze {
     public static void main(String[] args) {

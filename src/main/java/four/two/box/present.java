@@ -1,4 +1,4 @@
-package box;
+package four.two.box;
 public abstract class present {
     private String name;
     private Double price;

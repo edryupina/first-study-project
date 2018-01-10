@@ -1,4 +1,4 @@
-package box;
+package four.two.box;
 public class cracker extends present {
     private String salinity;
     public cracker(String name, Double price, Double weight, String salinity) {

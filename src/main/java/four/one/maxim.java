@@ -1,3 +1,5 @@
+package four.one;
+
 public class maxim {
     public static void main(String[] args) {
         int[] minmax;
@@ -30,9 +32,7 @@ public class maxim {
         }
         System.out.println(" ");
         System.out.printf ("Самое  первое  большое ОТРИЦ число в массиве = %d\n", min);
-        //System.out.printf ("Самое большое - число в массиве = %d\n", minn);
         System.out.printf ("Самое первое маленькое ПОЛОЖ число в массиве =  %d\n", max);
-        //System.out.printf ("Самое маленькое + число в массиве = %d\n", maxx);
         m = minmax[minn];
         minmax[minn] = minmax[maxx];
         minmax[maxx] = m;

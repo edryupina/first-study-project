@@ -1,3 +1,5 @@
+package three;
+
 import java.util.Scanner;
 
 public class calcmas {
