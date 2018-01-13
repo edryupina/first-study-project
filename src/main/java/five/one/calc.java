@@ -1,4 +1,7 @@
 package five.one;
 
-public abstract class calc {
+ abstract class Calc {
+    double getRezult (double numb1, double numb2) {
+        return numb1+numb2;
+    }
 }
