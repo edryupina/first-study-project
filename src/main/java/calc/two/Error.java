@@ -24,14 +24,14 @@ public class Error {
       }
       return ch;
    }
-   public static char calcul() {
-         char ch = str.next().charAt(0);
-         if (ch == 0) {
-            System.out.println("на ноль делить нельзя");
-            ch = calcul();
-         }
-         return ch;
-   }
+   //public static char calcul() {
+    //     char ch = str.next().charAt(0);
+    //     if (ch == 0) {
+    //        System.out.println("на ноль делить нельзя");
+    //        ch = calcul();
+    //     }
+    //     return ch;
+   //}
 }
 
 

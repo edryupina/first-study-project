@@ -12,24 +12,21 @@ public class Vvod {
          System.out.println("получилось ИТОГО");
          Class calc = null;
          switch (znak) {
-            case '+':
-               calc = new Sum();
+            case '+': calc = new Sum();
                break;
-            case '*':
-               calc = new Umn();
+            case '*': calc = new Umn();
                break;
-            case '-':
-               calc = new Razn();
+            case '-': calc = new Razn();
                break;
-            case '/':
-               calc = new Del();
+            case '/': calc = new Del();
                break;
+            default: calc = new Sum();
+            break;
          }
          System.out.printf("%.4f", calc.getResult(numb1, numb2));
          System.out.println();
-      } catch (myExeption e) {
-         System.out.println("Ошибка деления на ноль! Результат: " + e.getResult());
-         e.printStackTrace();
+      } catch (ArithmeticException e){
+         System.out.println("недопустимая ОШИБКА = "+e);
       }
    }
 }
