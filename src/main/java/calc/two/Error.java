@@ -1,4 +1,4 @@
-package calc.one;
+package calc.two;
 import java.util.Scanner;
 
 public class Error {
